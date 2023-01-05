@@ -31,6 +31,8 @@ describe 'reverse' do
     before (:each) do
       @solver = Solver.new
     end
-    
+    it 'Expect to return "fizz" when N is divisible by 3' do
+      expect(@solver.fizzbuzz(12)).to eql 'fizz'
+    end
   end
 end
