@@ -30,7 +30,7 @@ After you're finished please remove all the comments and instructions!
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b></b></h3>
 
 </div>
 
@@ -60,9 +60,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [TDD project] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> In this project we implemented a class with methods, but we did it by doing test-driven development (TDD)
 
 **[your_project__name]** is a...
 
@@ -70,7 +70,7 @@ After you're finished please remove all the comments and instructions!
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+- Ruby
 
 <details>
   <summary>Client</summary>
@@ -99,9 +99,8 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Add test for methods]**
+- **[write the methods]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,9 +108,9 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+
+- [NOT AVAILABLE AT THE MOMENT]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,77 +124,13 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+In order to run this project you need: VScode and Ruby Installed
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
-
-### Install
-
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
-
-### Usage
-
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+run: `git clone git@github.com:Alhajideen/TDD-project.git`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -205,17 +140,19 @@ Example:
 
 > Mention all of the collaborators of this project.
 
+
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Alhajideen](https://github.com/Alhajideen)
+- Twitter: [@Alhaji_deen1](https://twitter.com/Alhaji_deen1)
+- LinkedIn: [Deen](https://linkedin.com/in/nurudeen-salifu-776753244)
 
-👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Kelvin Benjamin**
+
+- GitHub: [@Kelvin-Ben](https://github.com/Kelvin-Ben)
+- Twitter: [@kevoyout144](https://twitter.com/kevoyout144)
+- LinkedIn: [Kelvin-Ben](https://www.linkedin.com/in/kelvin-ben-323043173/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -223,11 +160,10 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[Test failed without the method due to uninitialized class]**
+- [ ] **[Write classes with methods]**
+- [ ] **[Test pass with class methods defined]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
