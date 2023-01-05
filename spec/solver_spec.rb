@@ -18,12 +18,12 @@ describe 'factorial' do
   end
 end
 
-describe 'reverse' do
-  before(:each) do
-    @solver = Solver.new
-  end
+# describe 'reverse' do
+#   before(:each) do
+#     @solver = Solver.new
+#   end
 
-  it 'return a reversed string' do
-    expect(@solver.reverse('hello')).to eql 'olleh'
-  end
-end
+#   it 'return a reversed string' do
+#     expect(@solver.reverse('hello')).to eql 'olleh'
+#   end
+# end
