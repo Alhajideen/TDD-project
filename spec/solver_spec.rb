@@ -34,5 +34,8 @@ describe 'reverse' do
     it 'Expect to return "fizz" when N is divisible by 3' do
       expect(@solver.fizzbuzz(12)).to eql 'fizz'
     end
+    it 'Expect to return "buzz" when N is divisible by 5' do
+      expect(@solver.fizzbuzz(10)).to eql 'buzz'
+    end
   end
 end
