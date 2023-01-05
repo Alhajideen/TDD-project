@@ -1,14 +1,15 @@
 # frozen_string_literal: true
 
+# Solver Class
 class Solver
   def factorial(num)
-    if num < 0
-      raise 'Can only find factorial of positive numbers'
-    elsif num == 0
+    raise 'Can only find factorial of positive numbers' if num.negative?
+
+    if num.zero?
       1
     else
       range = (1..num)
-      result = range.reduce(1, :*)
+      range.reduce(1, :*)
     end
   end
 
@@ -17,11 +18,11 @@ class Solver
   end
 
   def fizzbuzz(num)
-    if (num % 3 == 0) && (num % 5 == 0)
+    if (num % 3).zero? && (num % 5).zero?
       'fizzbuzz'
-    elsif num % 3 == 0
+    elsif (num % 3).zero?
       'fizz'
-    elsif num % 5 == 0
+    elsif (num % 5).zero?
       'buzz'
     else
       num.to_s
