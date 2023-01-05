@@ -22,4 +22,8 @@ describe 'reverse' do
   before(:each) do
     @solver = Solver.new
   end
+
+  it 'return a reversed string' do
+    expect(@solver.reverse('hello')).to eql 'olleh'
+  end
 end
