@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative('../solver')
 
 describe 'factorial' do
@@ -10,7 +12,7 @@ describe 'factorial' do
   end
 
   it 'Expect to raise exception when number is negative' do
-    expect{@solver.factorial(-2)}.to raise_error
+    expect { @solver.factorial(-2) }.to raise_error
   end
 
   it 'Expect factorial if number is postitive' do
@@ -28,7 +30,7 @@ describe 'reverse' do
   end
 
   describe 'fizzbuzz' do
-    before (:each) do
+    before(:each) do
       @solver = Solver.new
     end
     it 'Expect to return "fizz" when N is divisible by 3' do
@@ -41,7 +43,7 @@ describe 'reverse' do
       expect(@solver.fizzbuzz(15)).to eql 'fizzbuzz'
     end
     it 'Expect to return N is a string' do
-      expect(@solver.fizzbuzz(7)).to eql "7"
+      expect(@solver.fizzbuzz(7)).to eql '7'
+    end
   end
-end
 end
