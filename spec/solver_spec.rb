@@ -1,4 +1,3 @@
-
 require_relative('../solver')
 
 describe 'factorial' do
