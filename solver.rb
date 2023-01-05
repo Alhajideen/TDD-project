@@ -1,4 +1,3 @@
-
 class Solver
   def factorial(num)
     raise 'Can only find factorial of positive numbers' if num.negative?
