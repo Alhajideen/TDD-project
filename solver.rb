@@ -9,4 +9,8 @@ class Solver
       result = range.reduce(1, :*)
     end
   end
+
+  def reversestring(str)
+    str.reverse
+  end
 end
