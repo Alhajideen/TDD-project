@@ -1,6 +1,6 @@
 require_relative('../solver')
 
-describe Solver do
+describe 'factorial' do
   before(:each) do
     @solver = Solver.new
   end
@@ -15,5 +15,11 @@ describe Solver do
 
   it 'Expect factorial if number is postitive' do
     expect(@solver.factorial(4)).to eql 24
+  end
+end
+
+describe 'reverse' do
+  before(:each) do
+    @solver = Solver.new
   end
 end
